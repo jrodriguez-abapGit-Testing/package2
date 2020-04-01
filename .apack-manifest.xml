@@ -10,7 +10,7 @@
    <DEPENDENCIES>
     <item>
      <GROUP_ID>testing</GROUP_ID>
-     <ARTIFACT_ID>package2</ARTIFACT_ID>
+     <ARTIFACT_ID>package1</ARTIFACT_ID>
      <GIT_URL>https://github.com/jrodriguez-abapGit-Testing/package1.git</GIT_URL>
     </item>
    </DEPENDENCIES>
