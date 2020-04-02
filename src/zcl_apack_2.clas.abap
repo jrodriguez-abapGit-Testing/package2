@@ -31,6 +31,7 @@ CLASS zcl_apack_2 IMPLEMENTATION.
 
     INSERT VALUE #( group_id    = 'testing'
                     artifact_id = 'package1'
+                    version     = '1.0.1'
                     git_url     = 'https://github.com/jrodriguez-abapGit-Testing/package1.git' )
            INTO TABLE zif_apack_manifest~descriptor-dependencies.
 
