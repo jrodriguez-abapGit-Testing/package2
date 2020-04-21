@@ -5,7 +5,7 @@ CLASS zcl_apack_2 DEFINITION
   CREATE PUBLIC .
 
   PUBLIC SECTION.
-    INTERFACES zif_apack_manifest.
+    INTERFACES if_apack_manifest.
 
     "! <p class="shorttext synchronized" lang="en">CONSTRUCTOR</p>
     "!
@@ -22,7 +22,7 @@ CLASS zcl_apack_2 IMPLEMENTATION.
 
   METHOD constructor.
 
-    zif_apack_manifest~descriptor = VALUE #(
+    if_apack_manifest~descriptor = VALUE #(
                 group_id        = 'github.com/jrodriguez-abapGit-Testing'
                 artifact_id     = 'package2'
                 version         = '1.0.0'
